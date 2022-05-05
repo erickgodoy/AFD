@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>AFD</title>
+	<link rel="stylesheet" href="styles/estilos.css">
+</head>
+
+<body>
+	<div class="navbar">
+		<a class="title" href="#" id="inicio">
+			<span class="site-name"> Autómatas Finitos Deterministicos </span>
+		</a>
+		<ul>
+			<li><a href="#" id="ex1">1</a></li>
+			<li><a href="#" id="ex2">2</a></li>
+			<li><a href="#" id="ex3">3</a></li>
+			<li><a href="#" id="ex4">4</a></li>
+		</ul>
+	</div>
+	<div class="main-content">
+		<div id="c-inicio" class="content-1">
+			<article>
+				<header>
+					<h1>Bienvenido</h1>
+				</header>
+
+				<img src="img/sistemas.png" alt="Automata1" />
+			</article>
+		</div>
+		<div id="c-ex1">
+			<article>
+				<header>
+					<h1>Ejercicio 1</h1>
+				</header>
+
+				<img src="img/A1.png" alt="Automata1" />
+
+				<div class="content">
+					<p>Ingrese una Cadena: </p>
+					<input type="text" value="" class="form-control" id="texto1" />
+					<input type="button" onclick="getCadAut1()" value="Evaluar" class="button">
+				</div>
+
+				<div id="traza1" class="content"></div>
+				<div id="trazaAut1" class="content"></div>
+				<div id="verificar1" class="content"></div>
+
+			</article>
+		</div>
+		<div id="c-ex2">
+			<article>
+				<header>
+					<h1>Ejercicio 2</h1>
+				</header>
+				<img src="img/A2.png" alt="Automata2" />
+				<div class="content">
+					<p>Ingrese una Cadena: </p>
+					<input type="text" value="" class="form-control" id="texto2" />
+					<input type="button" onclick="getCadAut2()" value="Evaluar" class="button">
+				</div>
+				<div id="traza2" class="content"></div>
+				<div id="trazaAut2" class="content"></div>
+				<div id="verificar2" class="content"></div>
+			</article>
+		</div>
+		<div id="c-ex3">
+			<article>
+				<header>
+					<h1>Ejercicio 3</h1>
+				</header>
+				<img src="img/A3.png" alt="Automata3" />
+				<div class="content">
+					<p>Ingrese una Cadena: </p>
+					<input type="text" value="" class="form-control" id="texto3" />
+					<input type="button" onclick="getCadAut3()" value="Evaluar" class="button">
+				</div>
+				<div id="traza3" class="content"></div>
+				<div id="trazaAut3" class="content"></div>
+				<div id="verificar3" class="content"></div>
+			</article>
+		</div>
+		<div id="c-ex4">
+			<article>
+				<header>
+					<h1>Ejercicio 4</h1>
+				</header>
+
+				<img src="img/A4.png" alt="Automata4" />
+
+				<div class="content">
+					<p>Ingrese una Cadena: </p>
+					<input type="text" value="" class="form-control" id="texto4" />
+					<input type="button" onclick="getCadAut4()" value="Evaluar" class="button">
+				</div>
+
+				<div id="traza4" class="content"></div>
+				<div id="trazaAut4" class="content"></div>
+				<div id="verificar4" class="content"></div>
+
+			</article>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/filter.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+
+</body>
+</html>
